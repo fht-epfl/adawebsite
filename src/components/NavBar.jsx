@@ -2,7 +2,7 @@ import gsap from "gsap";
 import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 
-const navItems = ["Home", "Intro", "Semantic", "Emotion", "Correlation"];
+const navItems = ["Home", "Intro", "Research-Questions", "Semantic", "Emotion", "Correlation"];
 
 const NavBar = () => {
 
@@ -48,7 +48,7 @@ const NavBar = () => {
             <header className="absolute top-1/2 w-full -translate-y-1/2">
                 <nav className="flex size-full items-center justify-between p-4">
                     {/* Logo */}
-                    <img src="/img/ada.svg" alt="logo" className="w-10" />
+                    <img src="img/ada.svg" alt="logo" className="w-10" />
                     {/* Navigation Links */}
 
                     <div className="hidden md:block">

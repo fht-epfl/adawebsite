@@ -67,11 +67,9 @@ const Hero = () => {
                 ref={titleRef}
                 className="absolute top-1/4 text-center text-5xl md:text-7xl font-bold leading-snug z-10"
             >
-                <span className="text-gray-800">How</span>{" "}
-                <span className="text-black">emotion</span>{" "}
-                <span className="text-gray-800">fluctuates</span>
+                <span className="text-black">Emotion-Semantic Mapping</span>
                 <br />
-                <span className="text-gray-600">through wikispeedia</span>
+                <span className="text-gray-600">through Wikipedia Article Transitions</span>
             </div>
 
             {/* Emotion Text */}
